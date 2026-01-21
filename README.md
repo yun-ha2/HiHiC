@@ -8,12 +8,12 @@ Deep learning–based Hi-C enhancement models aim to recover high-resolution chr
 In this study, we evaluate whether enhanced Hi-C contact maps preserve biologically meaningful chromatin features by comparing original, downsampled, and model-enhanced Hi-C data using loop- and domain-level metrics.
 
 ## Data provenance
+This repository focuses on **downstream analysis, evaluation, and visualization*  of Hi-C data enhanced by deep learning–based Hi-C enhancement models.
 
-All Hi-C datasets analyzed in this repository were generated using
-the HiHiC framework (https://github.com/jkrLab/HiHiC).
-
-This repository does not reproduce data generation or model training,
-and focuses exclusively on downstream analysis and evaluation.
+- Data generation, preprocessing, and model training were performed using
+  the HiHiC framework:
+  https://github.com/jkrLab/HiHiC
+- This repository does **not** reproduce data generation or model training.
 
 
 ## Analysis Design
