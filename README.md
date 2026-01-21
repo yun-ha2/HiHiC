@@ -81,3 +81,17 @@ The degree of TAD structure recovery varies across models and sequencing depths,
 <p align="center">
   <img src="figures/figure4.png" width="1000">
 </p>
+
+### Reference loop recovery by enhanced Hi-C maps
+To directly assess biological relevance at the finest structural scale,
+we evaluated chromatin loop recovery using Mustache-based loop calling.
+For each enhanced Hi-C dataset, detected loops were compared against
+reference loops derived from the original high-depth Hi-C data.
+
+Venn diagrams illustrate the overlap between reference loops and
+loops detected from enhanced Hi-C maps under different sequencing depths
+(5M and 2M reads).
+
+<p align="center">
+  <img src="figures/figure6.png" width="1000">
+</p>
