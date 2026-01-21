@@ -63,4 +63,7 @@ Radar plots summarize the relative performance of each model across different co
   <img src="figures/figure1.png" width="1000">
 </p>
 
+<p align="center">
+  <img src="figures/figure2.png" width="1000">
+</p>
 
