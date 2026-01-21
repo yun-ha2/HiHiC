@@ -95,3 +95,7 @@ loops detected from enhanced Hi-C maps under different sequencing depths
 <p align="center">
   <img src="figures/figure6.png" width="1000">
 </p>
+
+<p align="center">
+  <img src="figures/figure7.png" width="1000">
+</p>
