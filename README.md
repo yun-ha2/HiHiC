@@ -25,8 +25,7 @@ For each experiment, we compared three types of Hi-C contact maps:
 
 Analyses were conducted across:
 - Multiple cell lines (e.g., GM12878, K562, CH12-LX)
-- Multiple resolutions (e.g., 10 kb)
-- Multiple downsampling depths
-- Multiple enhancement models
+- Multiple downsampling depths (e.g., 5M,4M,3M,2M)
+- Multiple enhancement models ()
 
 
