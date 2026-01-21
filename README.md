@@ -24,8 +24,34 @@ For each experiment, we compared three types of Hi-C contact maps:
 3. Hi-C maps enhanced by deep learning–based super-resolution models
 
 Analyses were conducted across:
-- Multiple cell lines (e.g., GM12878, K562, CH12-LX)
-- Multiple downsampling depths (e.g., 5M,4M,3M,2M)
-- Multiple enhancement models ()
+- Multiple cell lines (e.g. GM12878, K562, CH12-LX)
+- Multiple downsampling depths (e.g. 5M,4M,3M,2M)
+- Multiple enhancement models (e.g. DFHiC, DeepHiC, HiCARN1, HiCARN2, HiCNN2, HiCPlust, SRHiC, iEnhance)
 
+## Evaluation Strategy
+Biological usefulness was assessed using quantitative and biologically interpretable metrics, rather than visual similarity alone.
 
+### Quantitative Metrics
+
+- Peak Signal-to-Noise Ratio (PSNR)
+- HiCRep correlation
+- Directionality Index
+- Insulation Score
+- Pearson Correlation Coefficient
+  
+### Biological Feature Recovery
+- **Topologically Associating Domains (TADs)**
+  - TAD hierarchy comparison
+  - Domain overlap ratio
+  - Boundary overlap ratio
+  - TopDom-based evaluation
+ 
+- **Chromatin Loops**
+  - Loop detection using Mustache
+  - Overlap with reference loops
+  - Precision, recall, and F1 score
+  - Distance-stratified loop recovery analysis
+
+ ---
+
+ ## Results
