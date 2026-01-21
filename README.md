@@ -17,6 +17,16 @@ This repository focuses on **downstream analysis, evaluation, and visualization*
 
 
 ## Analysis Design
+For each experiment, we compared three types of Hi-C contact maps:
 
+1. Original high-depth bulk Hi-C data
+2. Downsampled low-depth bulk Hi-C data
+3. Hi-C maps enhanced by deep learning–based super-resolution models
+
+Analyses were conducted across:
+- Multiple cell lines (e.g., GM12878, K562, CH12-LX)
+- Multiple resolutions (e.g., 10 kb)
+- Multiple downsampling depths
+- Multiple enhancement models
 
 
