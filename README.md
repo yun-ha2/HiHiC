@@ -1,4 +1,4 @@
-# Hi-C Enhancement Analysis and Biological Benchmarking Framework
+<img width="1729" height="1016" alt="figure1" src="https://github.com/user-attachments/assets/ec84d5f4-a13d-4a36-99e5-788411572343" /># Hi-C Enhancement Analysis and Biological Benchmarking Framework
 
 This repository provides a downstream analysis and benchmarking framework to evaluate whether Hi-C contact maps reconstructed by deep learning–based Hi-C enhancement models are biologically meaningful. Rather than proposing or training new enhancement models, this work focuses on systematic, quantitative, and biologically grounded evaluation of model-enhanced Hi-C data across multiple cell lines, resolutions, and downsampling levels.
 
@@ -49,9 +49,18 @@ Biological usefulness was assessed using quantitative and biologically interpret
 - **Chromatin Loops**
   - Loop detection using Mustache
   - Overlap with reference loops
-  - Precision, recall, and F1 score
-  - Distance-stratified loop recovery analysis
 
  ---
 
- ## Results
+## Results
+
+### Overall quantitative performance across sequencing depths
+We first assessed the overall performance of Hi-C enhancement models using five quantitative metrics: PSNR, HiCRep, Pearson correlation coefficient (PCC),
+Directionality Index, and Insulation Score.
+
+Radar plots summarize the relative performance of each model across different contact count depths (5M, 4M, 3M, and 2M reads).
+<p align="center">
+  <img src="figures/figure1.png" width="1000">
+</p>
+
+
