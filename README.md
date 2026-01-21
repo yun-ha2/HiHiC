@@ -67,3 +67,17 @@ Radar plots summarize the relative performance of each model across different co
   <img src="figures/figure2.png" width="1000">
 </p>
 
+### Qualitative comparison of TAD structures
+We performed a qualitative comparison of topologically associating
+domain (TAD) structures using TopDom across original, downsampled,
+and enhanced Hi-C contact maps.
+
+The degree of TAD structure recovery varies across models and sequencing depths, indicating that enhancement performance is model-dependent.
+
+<p align="center">
+  <img src="figures/figure3.png" width="1000">
+</p>
+
+<p align="center">
+  <img src="figures/figure4.png" width="1000">
+</p>
