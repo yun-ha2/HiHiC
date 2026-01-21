@@ -1,4 +1,4 @@
-<img width="1729" height="1016" alt="figure1" src="https://github.com/user-attachments/assets/ec84d5f4-a13d-4a36-99e5-788411572343" /># Hi-C Enhancement Analysis and Biological Benchmarking Framework
+# Hi-C Enhancement Analysis and Biological Benchmarking Framework
 
 This repository provides a downstream analysis and benchmarking framework to evaluate whether Hi-C contact maps reconstructed by deep learning–based Hi-C enhancement models are biologically meaningful. Rather than proposing or training new enhancement models, this work focuses on systematic, quantitative, and biologically grounded evaluation of model-enhanced Hi-C data across multiple cell lines, resolutions, and downsampling levels.
 
